@@ -1,3 +1,4 @@
+package hw3;
 public class GamePiece extends GameEntity{
 	
 	private String name;

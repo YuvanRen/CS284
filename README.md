@@ -1,1 +1,2 @@
-# CS284 DATA STRUCTURES
+# CS284 Data Structures
+

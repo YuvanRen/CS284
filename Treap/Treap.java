@@ -9,7 +9,7 @@ public class Treap<E extends Comparable<E>>{
 	private static class Node<E>{	
 		
 		// Node Data Fields
-		public E data; 				// key for the search
+		public E data; 			// key for the search
 		public int priority; 		// random heap priority
 		public Node <E> left;
 		public Node <E> right;
@@ -58,10 +58,9 @@ public class Treap<E extends Comparable<E>>{
 		private Random priorityGenerator;
 		private Node <E> root;
 		
-		
+		//Constructors 
+	
 		/*
-		 *  Constructors
-		 *  
 		 *  Initializes priorityGenerator.
 		 *  Creates empty treap.
 		 */
@@ -74,7 +73,7 @@ public class Treap<E extends Comparable<E>>{
 			this.root = null;
 		}
 		
-		// add helper
+		// Add helper
 		public void reheap(Node<E> temp, Stack<Node<E>> n) {
 			while (!n.isEmpty()) {
 				Node<E> parent = n.pop();

@@ -148,10 +148,5 @@ public class CoinPurse{
 	/* Check if the exact change put in by the user is correct
 	** @returns true or false
 	*/ 
-	public boolean exactChange(int n) {
-		if(n > totalValue() || n < totalValue()) {
-			return false;
-		}
-		return true;
-		}
+	
 }
